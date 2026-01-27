@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
             
             <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full border-[12px] border-white overflow-hidden shadow-2xl">
               <img 
-                src="/profile.jpg" 
+                src="/public/yogesh.jpg" 
                 alt={PERSONAL_INFO.name}
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 onError={(e) => {
