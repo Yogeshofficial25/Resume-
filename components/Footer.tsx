@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <div className="w-6 h-6 bg-[#e63946] rounded-md mr-2 flex items-center justify-center group-hover:rotate-12 transition-transform">
                <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
             </div>
-            <span className="text-slate-900 uppercase">YAK<span className="text-[#00f5ff]">.</span></span>
+            <span className="text-slate-900 uppercase">Yogesh Kulkarni<span className="text-[#00f5ff]">.</span></span>
           </div>
           <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">Protocol: Continuous Improvement</p>
         </div>
