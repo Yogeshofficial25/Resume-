@@ -4,9 +4,8 @@ import { PERSONAL_INFO } from '../constants';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { name: 'LinkedIn', icon: 'fab fa-linkedin-in', url: 'https://linkedin.com/in/yogesh-kulkarni-pm', color: 'hover:text-[#00f5ff]' },
-    { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/Anil-Yogesh', color: 'hover:text-[#e63946]' },
-    { name: 'Twitter', icon: 'fab fa-twitter', url: 'https://twitter.com/yogesh_pm', color: 'hover:text-[#00f5ff]' }
+    { name: 'LinkedIn', icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/yogeshkulkarnioficial/, color: 'hover:text-[#00f5ff]' },
+    { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/Yogeshofficial25', color: 'hover:text-[#e63946]' },
   ];
 
   return (
