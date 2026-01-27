@@ -30,7 +30,7 @@ const Header: React.FC = () => {
             <div className="w-8 h-8 bg-[#e63946] rounded-lg mr-3 flex items-center justify-center group-hover:rotate-45 transition-transform">
                <div className="w-2 h-2 bg-white rounded-full"></div>
             </div>
-            <span className={scrolled ? 'text-white' : 'text-slate-900'}>YAK<span className="text-[#00f5ff]">.</span></span>
+            <span className={scrolled ? 'text-white' : 'text-slate-900'}>Yogesh KulkarniK<span className="text-[#00f5ff]">.</span></span>
           </a>
 
           {/* Desktop Nav */}
