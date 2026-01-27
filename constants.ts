@@ -3,7 +3,7 @@ import { Experience, SkillCategory, Education, Certification } from './types';
 
 export const PERSONAL_INFO = {
   name: "Yogesh Anil Kulkarni",
-  role: "Product Manager & Product Systems Builder",
+  role: "Product Manager",
   location: "Aurangabad, MH, India",
   phone: "9022050461",
   email: "yogeshkulkarnioficial@gmail.com",
@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
 export const EXPERIENCES: Experience[] = [
   {
     company: "Farmseasy Tech Solutions",
-    role: "Product Systems Builder",
+    role: "Product Manager",
     period: "Jun 2025 – Present",
     points: [
       "Building and structuring product systems for a consumer-facing digital platform focused on user engagement, usability, and scalable architecture.",
