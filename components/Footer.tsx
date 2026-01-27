@@ -2,11 +2,10 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../constants';
 
-const Footer: React.FC = () => {
-  const socialLinks = [
-    { name: 'LinkedIn', icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/yogeshkulkarnioficial/, color: 'hover:text-[#00f5ff]' },
-    { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/Yogeshofficial25', color: 'hover:text-[#e63946]' },
-  ];
+const socialLinks = [
+  { name: 'LinkedIn', icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/yogeshkulkarnioficial/', color: 'hover:text-[#0a66c2]' },
+  { name: 'GitHub',   icon: 'fab fa-github',         url: 'https://github.com/Yogeshofficial25',       color: 'hover:text-[#e63946]' },
+];
 
   return (
     <footer className="py-16 px-6 border-t border-slate-100 bg-white relative overflow-hidden">
