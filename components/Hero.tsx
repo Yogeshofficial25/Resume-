@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { PERSONAL_INFO } from '../constants';
 
@@ -64,7 +63,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-wrap gap-6 pt-4 animate-reveal delay-400">
             <a 
               href="#contact" 
-              className="px-10 py-5 bg-[#e63946] text-white font-black rounded-full shadow-[0_10px_0_#b91c1c] active:translate-y-[4px] active:shadow-none transition-all racing-slant flex items-center group"
+              className="px-10 py-5 bg-[#e63946] text-white font-black rounded-full shadow-[0_10px_0_#b91c1c] active:translate-y-[4px] active:shadow-none transition-all racing-slant flex items-center [...]"
             >
               IGNITION START
               <i className="fas fa-bolt ml-3 group-hover:animate-bounce"></i>
@@ -86,7 +85,7 @@ const Hero: React.FC = () => {
             
             <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full border-[12px] border-white overflow-hidden shadow-2xl">
               <img 
-                src="https://raw.githubusercontent.com/Anil-Yogesh/portfolio-assets/main/profile.jpg" 
+                src="/profile.jpg" 
                 alt={PERSONAL_INFO.name}
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 onError={(e) => {
