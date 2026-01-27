@@ -85,13 +85,15 @@ const Hero: React.FC = () => {
             
             <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full border-[12px] border-white overflow-hidden shadow-2xl">
               <img 
-                src="/public/yogesh.jpg" 
-                alt={PERSONAL_INFO.name}
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&q=80&w=800";
-                }}
-              />
+  src="https://raw.githubusercontent.com/Yogeshofficial25/Resume-/main/public/yogesh.jpg"
+  alt={PERSONAL_INFO.name}
+  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+  onError={(e) => {
+    (e.target as HTMLImageElement).src =
+      "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&q=80&w=800";
+  }}
+/>
+
               {/* EVE-style Scan Overlay */}
               <div className="absolute inset-0 bg-[#00f5ff]/5 pointer-events-none"></div>
               <div className="absolute top-1/4 left-0 w-full h-1 bg-[#00f5ff] shadow-[0_0_15px_#00f5ff] opacity-50 animate-[scan_4s_ease-in-out_infinite]"></div>
